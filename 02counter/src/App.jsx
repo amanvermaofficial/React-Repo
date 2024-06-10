@@ -9,11 +9,23 @@ function App() {
 // let counter=15;
 
 const addValue = ()=>{
-  // counter+=1;
-  if (counter<20) {
-    counter=counter+1;
-    setCounter(counter)
-  }
+  /* All the Updates you have to send UI are not just in UI in the variables even send them in batches
+  
+  Earlier also we used to send batches but those batches and control come on our fiber which is an algo,our defying.
+
+    setCounter(counter+1);
+    setCounter(counter+1);
+    setCounter(counter+1);
+    setCounter(counter+1);
+  
+    Features of callback function
+    setCounter((prevCounter)=>{ prevCounter+1})
+  */
+    setCounter( prevCounter => prevCounter+1)
+    setCounter( prevCounter => prevCounter+1)
+    setCounter( prevCounter => prevCounter+1)
+    setCounter( prevCounter => prevCounter+1)
+   //now its not bunches of packets,now its take previous state 
   
 } 
 
