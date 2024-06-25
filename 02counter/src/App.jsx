@@ -21,10 +21,11 @@ const addValue = ()=>{
     Features of callback function
     setCounter((prevCounter)=>{ prevCounter+1})
   */
-    setCounter( prevCounter => prevCounter+1)
-    setCounter( prevCounter => prevCounter+1)
-    setCounter( prevCounter => prevCounter+1)
-    setCounter( prevCounter => prevCounter+1)
+    setCounter( counter=> counter+1)
+    setCounter( counter=> counter+1)
+    // setCounter( prevCounter => prevCounter+1)
+    // setCounter( prevCounter => prevCounter+1)
+    // setCounter( prevCounter => prevCounter+1)
    //now its not bunches of packets,now its take previous state 
   
 } 
