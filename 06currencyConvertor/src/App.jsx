@@ -30,7 +30,7 @@ function App() {
     <div
       className="w-full h-screen flex flex-wrap justify-center items-center bg-cover bg-no-repeat"
       style={{
-        backgroundImage: `url('https://img.freepik.com/free-photo/coins-neatly-stacked-portray-investment-growth-fundamental-components-financial-prosperity_157027-2474.jpg?t=st=1719760847~exp=1719764447~hmac=ee4d12422194fa33795f7d309ad82469220ad7cf177060f3f6b74902113fbe24&w=996')`,
+      backgroundColor:"black",
       }}
     >
       <div className="w-full">
