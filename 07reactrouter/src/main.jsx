@@ -10,6 +10,7 @@ import Github , {githubInfoloader} from './components/Github/Github.jsx'
 import { Route, RouterProvider, createBrowserRouter, createRoutesFromElements} from 'react-router-dom'
 import Layout from './Layout.jsx'
 
+
 // const router = createBrowserRouter([
 //   {
 //     path:'/',
