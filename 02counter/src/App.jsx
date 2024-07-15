@@ -40,7 +40,6 @@ if (counter>0) {
     <>
     <h1>Chai aur React</h1>
     <h2>Counter value : {counter}</h2>
-
      <button onClick={addValue}>Add value {counter}</button>
     <br />
     <button onClick={removeValue}>Remove value {counter}</button>
